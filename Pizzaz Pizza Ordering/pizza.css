@@ -1,0 +1,24 @@
+.cardcontainer {
+   display: flex;
+   justify-content: space-around;
+   width: 50%;
+   padding: 1%;
+   background: lightgray;
+}
+
+.inputcard {
+   padding: 1%;
+}
+
+body {
+   background-color: blanchedalmond;
+}
+
+h1 {
+   color: brown;
+}
+
+h2 {
+   color: brown;
+}
+

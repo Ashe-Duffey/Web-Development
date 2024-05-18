@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Pizzaz Pizza</title>
+
+   <link rel="stylesheet" href="pizza.css">
+</head>
+<body>
+   <h1>Pizzaz Pizza</h1>
+
+   <form action="pizza.php" method="post">
+      <div class="cardcontainer">
+         <div class="inputcard">
+            <h2>Size</h2>
+            <input type="radio" name="size" value="xlarge">X-Large: $12.95<br/>
+            <input type="radio" name="size" value="large">Large: $9.95
+         </div>
+
+         <div class="inputcard">
+            <h2>Toppings</h2>
+            <input type="checkbox" name="toppings[ ]" value="pepperoni"/>Pepperoni<br/>
+            <input type="checkbox" name="toppings[ ]" value="mushroom"/>Mushroom
+         </div>
+
+         <div class="inputcard">
+            <h2>Crust</h2>
+            <select name="crust">
+               <option value="thin">Thin</option>
+               <option value="original">Original</option>
+               <option value="deep">Deep Dish</option>
+            </select>
+         </div>
+      </div>
+
+      <div>
+         <label>Name <input name="name"></label>
+         <input type="submit" value="Order">
+      </div>
+   </form>
+   
+</body>
+</html>

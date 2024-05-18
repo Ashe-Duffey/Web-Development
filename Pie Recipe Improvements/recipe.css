@@ -1,0 +1,45 @@
+body {
+   background-image: url(images/silverware.jpg);
+   background-size: cover;
+   background-position: center top;
+}
+
+h1 {
+   color: #a4a400;
+   background-color: #f0f0f0;
+   font: 22pt Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: underline;
+}
+
+h2 {
+   color: #a4a400;
+   background-color: #f0f0f0;
+   font: 18pt Verdana, Geneva, Tahoma, sans-serif;
+   text-align: left;
+   text-decoration: underline;
+}
+
+p {
+   color: #404040;
+   font: 11pt Georgia, Garamond;
+}
+
+.stepname {
+   font-weight: bold;
+}
+
+a {
+   color: #a4a400;
+}
+
+blockquote p {
+   background-color: #ffffc8;
+   font-style: italic;
+   text-wrap: wrap;
+}
+
+ul li {
+   list-style-image: url(images/pie_icon.gif);
+}

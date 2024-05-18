@@ -1,0 +1,36 @@
+index.html 
+	use 4 different HTML elements to create a homepage for the recipe page.
+	
+pie.html
+	headings
+		X foreground color of #A4A400
+		X background color of #F0F0F0
+		X font family Century Gothic, Futura, Verdana
+		X left aligned 
+		X 18pt font
+		X Main heading is centered and 22pt bold font
+		X ALL HEADINGS UNDERLINED
+	
+	body
+		X white background
+		X text color #404040
+		X 11pt font
+		X font Georgia, Garamond
+		X links on page color #A4A400
+		X The names of the steps are in strong font
+		
+		quotations
+			X indented block
+			X italics
+			X background #FFFFC8
+			
+	Bottom section
+		X home link that links to index.html
+		X link for "Search for other lemon meringue pie recipes" that links to link provided
+			
+			
+Extra features
+	X pie bullet
+	X background
+		
+		

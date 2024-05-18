@@ -1,0 +1,80 @@
+html {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbarcontainer {
+   display: flex;
+   flex-direction: column;
+   color: white;
+   background: #154c79;
+   padding: 10px;
+}
+
+.navbar {
+   text-align: center;
+}
+
+a {
+   
+   text-decoration: none;
+   color: white;
+   padding: 10px;
+}
+
+h1 {
+   font-family: cursive;
+}
+
+
+
+
+#cardcontainer {
+   display: flex;
+   background: cornsilk;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 800px;
+}
+
+.destinationcard {
+   width: 300px;
+   border: ridge;
+   border-width: 8px;
+   padding: 10px;
+   background: linear-gradient(paleturquoise, ivory);
+}
+
+.destinationcard h2 {
+   color: #154c79;
+}
+
+.destinationcard hr {
+   border-color: #eab678;
+   background: #eab678;
+   height: 2px;
+}
+
+.commentcard {
+   width: 200px;
+   border: solid;
+   border-width: 2px;
+   border-color: green;
+   padding: 15px;
+   font-family: 'Times New Roman', Times, serif;
+   rotate: -25deg;
+}
+
+.commentcard h2 {
+   color: green;
+}
+
+.commentcard img {
+   float : left; width: 35px; height: 35px;
+}
+
+.review {
+   font-style: italic;
+}
+
+
+ 

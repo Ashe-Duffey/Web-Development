@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Date and Time</title>
+
+   <link rel="stylesheet" href="flag.css">
+   <script src="flag.js"></script>
+</head>
+<body>
+   <div id="dateContainer">
+      <h2 id="day"></h2>
+      <h2 id="date"></h2>
+      <h2 id="time"></h2>
+   </div>
+   
+   <div id="cardContainer">
+         <fieldset class="card">
+            <legend>Format</legend>
+            <input type="radio" value="us" id="us" name="format">US <br>
+            <input type="radio" value="euro" id="euro" name="format">European
+         </fieldset>
+         <fieldset class="card">
+            <legend>Font Size</legend>
+            <input type="radio" value="medium" id="medium" name="font">Medium <br>
+            <input type="radio" value="large" id="large" name="font">Large <br>
+            <input type="radio" value="xlarge" id="xlarge" name="font">X-Large
+         </fieldset>
+         <fieldset class="card">
+            <legend>Flag</legend>
+            <input type="checkbox" id="showflag" name="showflag">Show 
+         </fieldset>
+   </div>
+   <div>
+      <select id="textcolor" name="textcolor">
+         <option value="blue">Blue</option>
+         <option value="red">Red</option>
+         <option value="yellow">Yellow</option>
+         <option value="green">Green</option>
+      </select>
+      <select id="backgrounddrop" name="backgrounddrop">
+         <option value="cornsilk">Yellow</option>
+         <option value="steelblue">Blue</option>
+         <option value="pink">Red</option>
+         <option value="lightseagreen">Green</option>
+      </select>
+      <input type="button" value="Submit" id="submit">
+   </div>
+   
+</body>
+</html>

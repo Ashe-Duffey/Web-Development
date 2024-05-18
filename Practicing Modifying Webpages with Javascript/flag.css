@@ -1,0 +1,11 @@
+#cardcontainer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   background-color: light;
+   
+}
+
+.card {
+   width: 10%;
+}
